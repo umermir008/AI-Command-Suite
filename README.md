@@ -1,71 +1,16 @@
-AI Command Suite
+# React + Vite
 
-AI Command Suite is a premium Enterprise AI Agent Orchestration platform. It provides a mission-critical interface for managing, deploying, and monitoring specialized AI agents across various industrial sectors like Finance, Healthcare, and Logistics.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🚀 Key Features
+Currently, two official plugins are available:
 
-Agent Management Dashboard: Real-time monitoring of agent status, efficiency metrics, and task volume.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-Autonomous Orchestration: Visualized workflow pipelines demonstrating the path from data ingress to agent action and human oversight.
+## React Compiler
 
-Industry-Specific Presets: Tailored modules for Finance (risk assessment), Healthcare (compliance), E-Commerce (optimization), and Logistics (supply chain).
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Responsive Design: Fully adaptive UI built with Tailwind CSS, supporting both Dark and Light modes.
+## Expanding the ESLint configuration
 
-Enterprise-Grade UI: Built with modern design tokens including fluid animations, glassmorphism, and high-contrast typography.
-
-🛠️ Technical Stack
-
-Framework: React.js
-
-Styling: Tailwind CSS (Utility-first CSS)
-
-Icons: Lucide React
-
-Animations: CSS Keyframes & Tailwind Transitions
-
-📂 Project Structure
-
-App.jsx: The central entry point containing the entire application logic, state management, and component architecture.
-
-Atomic Components:
-
-Button: Multi-variant, accessible button component.
-
-Card: Standardized container for content elevation.
-
-Badge: Status and category indicators.
-
-WorkflowNode: Specialized component for visualizing agent logic steps.
-
-💻 Getting Started
-
-Prerequisites: Ensure you have a modern browser and a React-ready environment.
-
-Installation:
-
-The application relies on lucide-react for iconography.
-
-Tailwind CSS must be enabled in your environment.
-
-Usage:
-
-Use the Industry Selector to see how the suite adapts to different business needs.
-
-Use the Toggle Switch in the pricing section to view annual vs. monthly savings.
-
-Interact with the Agent Table to play/pause specific AI entities.
-
-🛡️ Security & Compliance
-
-The UI reflects enterprise readiness including:
-
-SOC2 Type II compliance indicators.
-
-End-to-end encryption visualizations.
-
-Identity Vault integration for credential management.
-
-📄 License
-
-Copyright © 2024 Command Suite AI Inc. All rights reserved. Professional and Enterprise licenses available.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
